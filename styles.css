@@ -102,6 +102,7 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  line-height: 2.5;
 }
 .card:hover {
   border-color: yellow;
@@ -142,8 +143,9 @@ header .profile-image:hover {
 
 /* lists */
 ul.skills {
-  padding: 0;
+  padding: top 20px;
   text-align: center;
+ 
 }
 
 .skills li {
@@ -151,8 +153,9 @@ ul.skills {
   display: inline-block;
   background: lightskyblue;
   color: white;
-  padding: 5px 10px;
+  padding: 5px 5px;
   margin: 2px;
+  
 }
 
 .skills li:nth-child(odd) {
