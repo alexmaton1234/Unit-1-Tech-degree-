@@ -54,14 +54,14 @@ a:hover {
 .nav a:hover {
   color: yellow;
 }
-
-header #home{
-  background: url(/images/new-york.jpg) center no-repeat;
+header {
   text-align: center;
+  background: url('images/london.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
+
 header {
   line-height: 1.5;
 }
@@ -101,6 +101,21 @@ header .profile-image:hover {
 .card:hover {
   border-color: yellow;
 }
+
+.projects {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.projects:hover {
+  border-color: yellow;
+  }
+
 
 ul.skills {
   padding: 0;
