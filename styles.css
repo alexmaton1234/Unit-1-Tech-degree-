@@ -8,14 +8,14 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #222;
+  color:black;
   background: #f7f5f0;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 a:hover {
   color:blue;
@@ -109,13 +109,13 @@ header .profile-image:hover {
   text-align: center;
   background: #fff;
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-radius: 7px;
   transition: all .5s;
 }
 .projects:hover {
   border-color: yellow;
-  }
-
+  transform: scale(1.05);
+}
 
 ul.skills {
   padding: 0;
